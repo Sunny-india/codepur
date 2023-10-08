@@ -7,6 +7,10 @@ class Utils {
     return ThemeData(
       appBarTheme: const AppBarTheme(
         centerTitle: true,
+        color: Colors.white,
+        elevation: 0,
+        iconTheme: IconThemeData(color: Colors.black),
+        titleTextStyle: TextStyle(color: Colors.black),
       ),
       // button decoration
       elevatedButtonTheme: ElevatedButtonThemeData(
@@ -27,6 +31,6 @@ class Utils {
   }
 
   static ThemeData myDarkTheme() {
-    return ThemeData();
+    return ThemeData(brightness: Brightness.dark);
   }
 }

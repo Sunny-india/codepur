@@ -9,6 +9,7 @@ class MyDrawerPage extends StatelessWidget {
     String profileImageUrl =
         'https://images.unsplash.com/photo-1492269815085-88eb3ffe14e5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3538&q=80';
     return Drawer(
+      width: MediaQuery.sizeOf(context).width * .65,
       child: Container(
         decoration: const BoxDecoration(color: Colors.deepPurple),
         child: ListView(children: [
