@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "680902184651",
+    "project_id": "codepur-97296",
+    "storage_bucket": "codepur-97296.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:680902184651:android:10ccc6d08480f0342d954e",
+        "android_client_info": {
+          "package_name": "com.example.codepur"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkzlkOqipOGT09y3-MQfG9pIfU4fOsEYc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
